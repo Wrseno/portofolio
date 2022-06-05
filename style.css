@@ -341,8 +341,8 @@ footer
 {
     .wrap
     {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 
     ul
@@ -350,6 +350,21 @@ footer
         display: flex;
         justify-content: center;
         gap: 5px;
+    }
+
+    .list__paragraf
+    {
+        text-align: left;
+    }
+
+    .list__img img 
+    {
+        padding: 10px;
+    }
+
+    .col__left
+    {
+        width: 100%;
     }
 }
 
@@ -363,8 +378,8 @@ footer
 {
     .wrap
     {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 
     ul
@@ -385,8 +400,8 @@ footer
 {
     .wrap
     {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .hero__grid
@@ -470,8 +485,8 @@ footer
 
     .wrap
     {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     
     .hero__grid
