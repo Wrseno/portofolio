@@ -78,7 +78,7 @@ ul li a
 
 li.active a
 {
-    color: var(--dark-blue);
+    color: var(--emerald);
 }
 
 #hero
@@ -130,14 +130,14 @@ li.active a
 
 .hero__text__greeting
 {
-    color: var(--blue);
+    color: var(--emerald);
     font-weight: 600;
 }
 
 .hero__text__greeting .me
 {
     color: var(--teal);
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .hero__text__work
@@ -148,7 +148,12 @@ li.active a
 
 .hero__text__work .content__creator
 {
-    color: var(--blue);
+    color: var(--emerald);
+}
+
+.hero__text__name
+{
+    color: var(--dark-blue);
 }
 
 .hero__text__about
@@ -294,6 +299,11 @@ li.active a
     transform: scale(1.05);
 }
 
+.blog__title
+{
+    color: var(--dark-blue);
+}
+
 .blog__paragraf
 {
     color: var(--slate);
@@ -313,6 +323,11 @@ footer
     color: var(--teal);
 }
 
+.footer__icon a:hover
+{
+    color: var(--green);
+}
+
 .footer__title
 {
     margin-bottom: 1rem;
@@ -330,6 +345,10 @@ footer
     color: var(--teal);
 }
 
+.footer__made__span:hover
+{
+    color: var(--green);
+}
 
 
 

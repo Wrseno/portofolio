@@ -18,27 +18,6 @@ var typed = new Typed(".auto-type",{
     loop: true
 })
 
-var typed_title = new Typed(".auto-type-about",{
-    strings: ["TENTANG SAYA"],
-    typeSpeed:200,
-    backSpeed:200,
-    loop:true
-})
-
-var typed_title = new Typed(".auto-type-list",{
-    strings: ["DAFTAR SAYA"],
-    typeSpeed:200,
-    backSpeed:200,
-    loop:true
-})
-
-var typed_title = new Typed(".auto-type-blog",{
-    strings: ["BLOG / VIDEO"],
-    typeSpeed:200,
-    backSpeed:200,
-    loop:true
-})
-
 var typed_title = new Typed(".auto-type-footer",{
     strings: ["Seno"],
     typeSpeed:350,
