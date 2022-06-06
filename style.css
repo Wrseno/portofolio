@@ -350,7 +350,6 @@ footer
     color: var(--green);
 }
 
-
 ::-webkit-scrollbar
 {
     width: 20px;
@@ -408,11 +407,6 @@ footer
 /*------------------------- Media screen min width 600px --------------------------*/
 @media only screen and (min-width: 600px) 
 {
-    .wrap
-    {
-        margin-left: 2px;
-        margin-right: 2px;
-    }
 
     ul
     {
@@ -430,11 +424,6 @@ footer
 /*-------------------------- Media Screen min width 768px -------------------------------*/
 @media only screen and (min-width: 768px) 
 {
-    .wrap
-    {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
 
     .hero__grid
     {
