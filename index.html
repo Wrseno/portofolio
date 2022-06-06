@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seno</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header id="header" class="">
@@ -65,14 +66,15 @@
                                 <p class="hero__text__about">
                             Saya sangat menyukai dunia IT. Terutama dibidang Pemrograman, Editing, 3D.
                         Atau hal - hal lain yang masih dalam 1 bidang namun bisa membuat bermacam - macam hal.
-                        Fotonya tidak aestetik, memang disengaja😂
+                        Fotonya tidak aestetik, karena tidak ada foto lain🙂. Mungkin animasinya terlalu lebay,
+                        jika memang seperti itu setiap hari akan saya update portofolio ini.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" data-aos="fade-up" data-aos-duration="1000">
         <div class="wrap">
             <h2 class="section__title">.TENTANG SAYA <span class="auto-type-about"></span></h2>
             <h3 class="content__title">Cerita Saya</h3>
@@ -130,7 +132,7 @@
             <div class="list__grid">
                 <div class="list__learning">
                     <h2 class="section__title">.DAFTAR <span class="auto-type-list"></span></h2>
-                    <div class="list__content">
+                    <div class="list__content" data-aos="fade-right">
                         <h3 class="content__title">Yang Saya Pelajari Saat Ini</h3>
                         <p class="list__paragraf">Lumayan banyak yang ingin saya pelajari, namun pasti saya kesusahan jika
                         mempelajari semuanya. Mungkin dari daftar di bawah, dikemudian hari akan saya tinggalkan dan berfokus pada beberapa bahasa saja.
@@ -148,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="list__work">
+                <div class="list__work" data-aos="fade-left" data-aos-duration="1000">
                     <h3 class="content__title">Keseharian Saya Saat Ini</h3>
                     <p class="list__paragraf">Selain mempelajari beberapa bahasa pemrograman web, saya juga mempunyai
                         beberapa pekerjaan. Saya kadang membuat video tutorial di Youtube dan berjualan voucher game.
@@ -175,7 +177,7 @@
             <h2 class="section__title">.BLOG/VIDEO<span class="auto-type-blog"></span></h2>
             <h3 class="content__title">Video Terkini</h3>
             <div class="blog__grid">
-                <div class="blog__container">
+                <div class="blog__container" data-aos="zoom-in">
                     <div class="blog__cover">
                         <a href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="blog__img">
@@ -195,7 +197,7 @@
                     </div>
                 </div>
 
-                <div class="blog__container">
+                <div class="blog__container" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="blog__cover">
                         <a href="http://" target="_blank" rel="noopener noreferrer">
                             <div class="blog__img">
@@ -265,6 +267,10 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

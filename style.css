@@ -25,6 +25,11 @@
     scroll-behavior: smooth;
 }
 
+body
+{
+    overflow-x: hidden;
+}
+
 #header
 {
     position: fixed;
@@ -94,19 +99,21 @@ li.active a
     background-color: var(--teal);
     border-radius: 1rem;
     transform: rotate(15deg);
-    animation: boxAnimation 5s;
+    animation: boxAnimation 3s alternate;
 }
 
 @keyframes boxAnimation {
     0%
     {
-        width: 35%;
+        width: 50%;
     }
-    75%
+    30%
     {
-        width: 40%;
-        transform: rotate(380deg);
         border-radius: 12rem 0.5rem 12rem 0.5rem;
+    }
+    70%
+    {
+        border-radius: 0.5rem 12rem 0.5rem 12rem;
     }
     100%
     {
@@ -126,6 +133,28 @@ li.active a
 .hero__text
 {
     margin-top: 1rem;
+    animation: textFade 3s ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes textFade {
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    70%
+    {
+        opacity: 0.5;
+    }
+    100%
+    {
+        opacity: 1;
+    }
 }
 
 .hero__text__greeting
@@ -450,19 +479,21 @@ footer
         background-color: var(--teal);
         border-radius: 1rem;
         transform: rotate(15deg);
-        animation: boxAnimation 5s;
+        animation: boxAnimation 3s;
     }
 
     @keyframes boxAnimation {
         0%
         {
-            width: 60%;
+            width: 80%;
         }
-        75%
+        30%
         {
-            width: 70%;
-            transform: rotate(380deg);
             border-radius: 12rem 0.5rem 12rem 0.5rem;
+        }
+        70%
+        {
+            border-radius: 0.5rem 12rem 0.5rem 12rem;
         }
         100%
         {
@@ -475,6 +506,11 @@ footer
         width: 100%;
         margin: 0 1rem 0 0;
         transform: rotate(-15deg);
+    }
+
+    #about
+    {
+        margin-top: 12rem;
     }
 
 }
@@ -503,12 +539,6 @@ footer
     {
         margin-top: 5rem;
     }
-
-    .wrap
-    {
-        padding-left: 2px;
-        padding-right: 2px;
-    }
     
     .hero__grid
     {
@@ -522,19 +552,21 @@ footer
         background-color: var(--teal);
         border-radius: 1rem;
         transform: rotate(15deg);
-        animation: boxAnimation 5s alternate;
+        animation: boxAnimation 3s alternate;
     }
 
     @keyframes boxAnimation {
         0%
         {
-            width: 45%;
+            width: 60%;
         }
-        75%
+        30%
         {
-            width: 55%;
-            transform: rotate(380deg);
             border-radius: 12rem 0.5rem 12rem 0.5rem;
+        }
+        70%
+        {
+            border-radius: 0.5rem 12rem 0.5rem 12rem;
         }
         100%
         {
