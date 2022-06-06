@@ -99,7 +99,7 @@ li.active a
     background-color: var(--teal);
     border-radius: 1rem;
     transform: rotate(15deg);
-    animation: boxAnimation 3s alternate;
+    animation: boxAnimation 5s alternate;
 }
 
 @keyframes boxAnimation {
@@ -490,7 +490,7 @@ footer
         background-color: var(--teal);
         border-radius: 1rem;
         transform: rotate(15deg);
-        animation: boxAnimation 3s;
+        animation: boxAnimation 5s;
     }
 
     @keyframes boxAnimation {
@@ -563,7 +563,7 @@ footer
         background-color: var(--teal);
         border-radius: 1rem;
         transform: rotate(15deg);
-        animation: boxAnimation 3s alternate;
+        animation: boxAnimation 5s alternate;
     }
 
     @keyframes boxAnimation {
