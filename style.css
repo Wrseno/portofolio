@@ -133,9 +133,14 @@ li.active a
 .hero__text
 {
     margin-top: 1rem;
-    animation: textFade 3s ease;
+}
+
+.student__work
+{
+    animation: textFade 5s ease;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    color: var(--emerald);
 }
 
 @keyframes textFade {
