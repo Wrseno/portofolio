@@ -271,6 +271,7 @@ li.active a
 {
     background-color: var(--slate);
     margin-bottom: 12rem;
+    margin-top: 12rem;
 }
 
 .list__content
